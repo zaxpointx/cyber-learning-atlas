@@ -1,0 +1,2727 @@
+{
+  "name": "cyber-learning-atlas index",
+  "description": "Every entry in the repo with type, topic, level, source URL and date checked. Generated from entries.csv.",
+  "count": 158,
+  "entries": [
+    {
+      "id": "attack-t1595",
+      "type": "technique",
+      "title": "T1595 Active Scanning",
+      "topic": [
+        "reconnaissance"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1595/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Attackers probe your internet-facing IPs to see what is open and what versions are running."
+    },
+    {
+      "id": "attack-t1566",
+      "type": "technique",
+      "title": "T1566 Phishing",
+      "topic": [
+        "initial-access"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1566/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Tricking someone into clicking a link, opening a file or typing a password. Now often by text or voice call, not just email."
+    },
+    {
+      "id": "attack-t1190",
+      "type": "technique",
+      "title": "T1190 Exploit Public-Facing Application",
+      "topic": [
+        "initial-access"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1190/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Using a bug in something exposed to the internet (web app, VPN, file transfer server) to get in."
+    },
+    {
+      "id": "attack-t1133",
+      "type": "technique",
+      "title": "T1133 External Remote Services",
+      "topic": [
+        "initial-access",
+        "persistence"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1133/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Logging in through a VPN, Citrix or remote desktop portal that faces the internet, often with a stolen password."
+    },
+    {
+      "id": "attack-t1078",
+      "type": "technique",
+      "title": "T1078 Valid Accounts",
+      "topic": [
+        "initial-access",
+        "persistence",
+        "privilege-escalation",
+        "stealth"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1078/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Using a real username and password (stolen, bought or guessed). Hard to spot because it looks like normal work."
+    },
+    {
+      "id": "attack-t1110",
+      "type": "technique",
+      "title": "T1110 Brute Force",
+      "topic": [
+        "credential-access"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1110/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Guessing passwords over and over, or trying leaked passwords on many accounts (password spraying)."
+    },
+    {
+      "id": "attack-t1059",
+      "type": "technique",
+      "title": "T1059 Command and Scripting Interpreter",
+      "topic": [
+        "execution"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1059/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Running commands through a shell, PowerShell, Python and similar."
+    },
+    {
+      "id": "attack-t1053",
+      "type": "technique",
+      "title": "T1053 Scheduled Task/Job",
+      "topic": [
+        "execution",
+        "persistence",
+        "privilege-escalation"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1053/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Setting up cron jobs or scheduled tasks so attacker code runs again later or after reboot."
+    },
+    {
+      "id": "attack-t1547",
+      "type": "technique",
+      "title": "T1547 Boot or Logon Autostart Execution",
+      "topic": [
+        "persistence",
+        "privilege-escalation"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1547/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Adding something that starts automatically at boot or login (startup items, systemd services, registry run keys)."
+    },
+    {
+      "id": "attack-t1136",
+      "type": "technique",
+      "title": "T1136 Create Account",
+      "topic": [
+        "persistence"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1136/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Making a new account to keep access. On routers too."
+    },
+    {
+      "id": "attack-t1098",
+      "type": "technique",
+      "title": "T1098 Account Manipulation",
+      "topic": [
+        "persistence",
+        "privilege-escalation"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1098/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Changing an existing account (adding SSH keys, adding to admin groups) to keep or raise access."
+    },
+    {
+      "id": "attack-t1003",
+      "type": "technique",
+      "title": "T1003 OS Credential Dumping",
+      "topic": [
+        "credential-access"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1003/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Pulling saved passwords or password hashes out of memory or system files."
+    },
+    {
+      "id": "attack-t1021",
+      "type": "technique",
+      "title": "T1021 Remote Services",
+      "topic": [
+        "lateral-movement"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1021/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Using SSH, RDP or SMB with valid credentials to hop from one machine to the next."
+    },
+    {
+      "id": "attack-t1046",
+      "type": "technique",
+      "title": "T1046 Network Service Discovery",
+      "topic": [
+        "discovery"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1046/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Scanning inside the network to find other machines and open services."
+    },
+    {
+      "id": "attack-t1071",
+      "type": "technique",
+      "title": "T1071 Application Layer Protocol",
+      "topic": [
+        "command-and-control"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1071/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Hiding attacker commands inside normal-looking web, DNS or other traffic."
+    },
+    {
+      "id": "attack-t1572",
+      "type": "technique",
+      "title": "T1572 Protocol Tunneling",
+      "topic": [
+        "command-and-control"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1572/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Wrapping traffic inside another protocol (GRE, SSH, DNS) to sneak it past filters."
+    },
+    {
+      "id": "attack-t1105",
+      "type": "technique",
+      "title": "T1105 Ingress Tool Transfer",
+      "topic": [
+        "command-and-control"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1105/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Downloading attacker tools onto a hacked machine."
+    },
+    {
+      "id": "attack-t1567",
+      "type": "technique",
+      "title": "T1567 Exfiltration Over Web Service",
+      "topic": [
+        "exfiltration"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1567/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Sending stolen data to cloud storage or file-sharing sites so it blends in."
+    },
+    {
+      "id": "attack-t1486",
+      "type": "technique",
+      "title": "T1486 Data Encrypted for Impact",
+      "topic": [
+        "impact"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1486/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Ransomware: encrypting files so the owner can't use them."
+    },
+    {
+      "id": "attack-t1490",
+      "type": "technique",
+      "title": "T1490 Inhibit System Recovery",
+      "topic": [
+        "impact"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1490/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Deleting or wiping backups and shadow copies so the victim can't restore."
+    },
+    {
+      "id": "attack-t1685",
+      "type": "technique",
+      "title": "T1685 Disable or Modify Tools",
+      "topic": [
+        "defense-impairment"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1685/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Turning off antivirus, logging or security agents. New ID in ATT&CK v20 (it replaces the old T1562.001)."
+    },
+    {
+      "id": "attack-t1195",
+      "type": "technique",
+      "title": "T1195 Supply Chain Compromise",
+      "topic": [
+        "initial-access"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "n/a",
+      "url": "https://attack.mitre.org/techniques/T1195/",
+      "path": "techniques/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Breaking into a trusted vendor or open-source project so their software carries the attack."
+    },
+    {
+      "id": "d3fend-d3-nta",
+      "type": "defense",
+      "title": "D3-NTA Network Traffic Analysis",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:NetworkTrafficAnalysis/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1595; T1046; T1071; T1572"
+    },
+    {
+      "id": "d3fend-d3-itf",
+      "type": "defense",
+      "title": "D3-ITF Inbound Traffic Filtering",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:InboundTrafficFiltering/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1595; T1190"
+    },
+    {
+      "id": "d3fend-d3-ef",
+      "type": "defense",
+      "title": "D3-EF Email Filtering",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:EmailFiltering/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1566"
+    },
+    {
+      "id": "d3fend-d3-mfa",
+      "type": "defense",
+      "title": "D3-MFA Multi-factor Authentication",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:Multi-factorAuthentication/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1566; T1133; T1078; T1110"
+    },
+    {
+      "id": "d3fend-d3-uba",
+      "type": "defense",
+      "title": "D3-UBA User Behavior Analysis",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:UserBehaviorAnalysis/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1566; T1078; T1136; T1021"
+    },
+    {
+      "id": "d3fend-d3-su",
+      "type": "defense",
+      "title": "D3-SU Software Update",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:SoftwareUpdate/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1190; T1195"
+    },
+    {
+      "id": "d3fend-d3-ah",
+      "type": "defense",
+      "title": "D3-AH Application Hardening",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:ApplicationHardening/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1190"
+    },
+    {
+      "id": "d3fend-d3-ntf",
+      "type": "defense",
+      "title": "D3-NTF Network Traffic Filtering",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:NetworkTrafficFiltering/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1133"
+    },
+    {
+      "id": "d3fend-d3-anet",
+      "type": "defense",
+      "title": "D3-ANET Authentication Event Thresholding",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:AuthenticationEventThresholding/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1133; T1110"
+    },
+    {
+      "id": "d3fend-d3-cro",
+      "type": "defense",
+      "title": "D3-CRO Credential Rotation",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:CredentialRotation/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1078; T1098"
+    },
+    {
+      "id": "d3fend-d3-spp",
+      "type": "defense",
+      "title": "D3-SPP Strong Password Policy",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:StrongPasswordPolicy/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1110"
+    },
+    {
+      "id": "d3fend-d3-psa",
+      "type": "defense",
+      "title": "D3-PSA Process Spawn Analysis",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:ProcessSpawnAnalysis/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1059"
+    },
+    {
+      "id": "d3fend-d3-pla",
+      "type": "defense",
+      "title": "D3-PLA Process Lineage Analysis",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:ProcessLineageAnalysis/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1059"
+    },
+    {
+      "id": "d3fend-d3-eal",
+      "type": "defense",
+      "title": "D3-EAL Executable Allowlisting",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:ExecutableAllowlisting/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1059"
+    },
+    {
+      "id": "d3fend-d3-sja",
+      "type": "defense",
+      "title": "D3-SJA Scheduled Job Analysis",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:ScheduledJobAnalysis/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1053"
+    },
+    {
+      "id": "d3fend-d3-sfa",
+      "type": "defense",
+      "title": "D3-SFA System File Analysis",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:SystemFileAnalysis/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1547"
+    },
+    {
+      "id": "d3fend-d3-swi",
+      "type": "defense",
+      "title": "D3-SWI Software Inventory",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:SoftwareInventory/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1547; T1195"
+    },
+    {
+      "id": "d3fend-d3-uap",
+      "type": "defense",
+      "title": "D3-UAP User Account Permissions",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:UserAccountPermissions/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1136; T1098"
+    },
+    {
+      "id": "d3fend-d3-ch",
+      "type": "defense",
+      "title": "D3-CH Credential Hardening",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:CredentialHardening/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1003"
+    },
+    {
+      "id": "d3fend-d3-pa",
+      "type": "defense",
+      "title": "D3-PA Process Analysis",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:ProcessAnalysis/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1003; T1685"
+    },
+    {
+      "id": "d3fend-d3-ni",
+      "type": "defense",
+      "title": "D3-NI Network Isolation",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:NetworkIsolation/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1021"
+    },
+    {
+      "id": "d3fend-d3-ntcd",
+      "type": "defense",
+      "title": "D3-NTCD Network Traffic Community Deviation",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:NetworkTrafficCommunityDeviation/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1021; T1572; T1567"
+    },
+    {
+      "id": "d3fend-d3-nni",
+      "type": "defense",
+      "title": "D3-NNI Network Node Inventory",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:NetworkNodeInventory/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1046"
+    },
+    {
+      "id": "d3fend-d3-dnsta",
+      "type": "defense",
+      "title": "D3-DNSTA DNS Traffic Analysis",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:DNSTrafficAnalysis/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1071"
+    },
+    {
+      "id": "d3fend-d3-otf",
+      "type": "defense",
+      "title": "D3-OTF Outbound Traffic Filtering",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:OutboundTrafficFiltering/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1071; T1105; T1567"
+    },
+    {
+      "id": "d3fend-d3-fa",
+      "type": "defense",
+      "title": "D3-FA File Analysis",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:FileAnalysis/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1105; T1486"
+    },
+    {
+      "id": "d3fend-d3-rf",
+      "type": "defense",
+      "title": "D3-RF Restore File",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:RestoreFile/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1486; T1490"
+    },
+    {
+      "id": "d3fend-d3-rdi",
+      "type": "defense",
+      "title": "D3-RDI Restore Disk Image",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:RestoreDiskImage/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1486; T1490"
+    },
+    {
+      "id": "d3fend-d3-opm",
+      "type": "defense",
+      "title": "D3-OPM Operational Process Monitoring",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT (D3FEND ontology)",
+      "platform_fit": "n/a",
+      "url": "https://d3fend.mitre.org/technique/d3f:OperationalProcessMonitoring/",
+      "path": "techniques/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "D3FEND defensive technique paired with: T1685"
+    },
+    {
+      "id": "guide-kev",
+      "type": "guide",
+      "title": "Using the KEV list to decide what to patch first",
+      "topic": [
+        "vulnerability-management"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "CC0-1.0 (data)",
+      "platform_fit": "n/a",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "path": "techniques/kev.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "What KEV is, our 2026-11-22 counts, and how to combine KEV, EPSS and CVSS."
+    },
+    {
+      "id": "incident-ukraine-grid-2015",
+      "type": "incident",
+      "title": "Ukraine power grid attack (2015)",
+      "topic": [
+        "ics",
+        "grid"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://www.cisa.gov/news-events/ics-alerts/ir-alert-h-16-056-01",
+      "path": "incidents/ukraine-grid-2015.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Business IT and grid control networks need hard separation."
+    },
+    {
+      "id": "incident-equifax-2017",
+      "type": "incident",
+      "title": "Equifax breach (2017)",
+      "topic": [
+        "patching",
+        "web"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://www.gao.gov/products/gao-18-559",
+      "path": "incidents/equifax-2017.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "Patch internet-facing systems fast, especially when a fix is public."
+    },
+    {
+      "id": "incident-solarwinds-sunburst-2020",
+      "type": "incident",
+      "title": "SolarWinds Orion supply chain attack (SUNBURST) (2020)",
+      "topic": [
+        "supply-chain"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://www.cisa.gov/news-events/directives/ed-21-01-mitigate-solarwinds-orion-code-compromise",
+      "path": "incidents/solarwinds-sunburst-2020.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "A trusted vendor update is not proof of safety if the vendor itself is hacked."
+    },
+    {
+      "id": "incident-colonial-pipeline-2021",
+      "type": "incident",
+      "title": "Colonial Pipeline ransomware (2021)",
+      "topic": [
+        "ransomware",
+        "ics"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://www.govinfo.gov/content/pkg/CHRG-117shrg46569/html/CHRG-117shrg46569.htm",
+      "path": "incidents/colonial-pipeline-2021.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "One old account without MFA can take down critical infrastructure."
+    },
+    {
+      "id": "incident-log4shell-2021",
+      "type": "incident",
+      "title": "Log4Shell (Log4j) (2021)",
+      "topic": [
+        "vulnerability",
+        "open-source"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://www.cisa.gov/news-events/news/apache-log4j-vulnerability-guidance",
+      "path": "incidents/log4shell-2021.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Keep a software bill of materials (SBOM): a list of what's inside your software."
+    },
+    {
+      "id": "incident-lapsus-2022",
+      "type": "incident",
+      "title": "Lapsus$ extortion attacks (2022)",
+      "topic": [
+        "identity",
+        "social-engineering"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://www.cisa.gov/resources-tools/resources/review-attacks-associated-lapsus-and-related-threat-groups-report",
+      "path": "incidents/lapsus-2022.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Text-message MFA is better than nothing but is weak. Use an authenticator app or a security key."
+    },
+    {
+      "id": "incident-moveit-cl0p-2023",
+      "type": "incident",
+      "title": "MOVEit Transfer mass data theft (Cl0p) (2023)",
+      "topic": [
+        "ransomware",
+        "web",
+        "vulnerability"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a",
+      "path": "incidents/moveit-cl0p-2023.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "File transfer servers hold sensitive data and face the internet: prime targets."
+    },
+    {
+      "id": "incident-cisco-ios-xe-2023",
+      "type": "incident",
+      "title": "Cisco IOS XE web UI mass exploitation (2023)",
+      "topic": [
+        "network-devices",
+        "vulnerability"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://blog.talosintelligence.com/active-exploitation-of-cisco-ios-xe-software/",
+      "path": "incidents/cisco-ios-xe-2023.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Turn off management web interfaces on devices that face the internet."
+    },
+    {
+      "id": "incident-storm-0558-2023",
+      "type": "incident",
+      "title": "Microsoft Exchange Online intrusion (Storm-0558) (2023)",
+      "topic": [
+        "cloud",
+        "identity"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://www.cisa.gov/resources-tools/resources/CSRB-Review-Summer-2023-MEO-Intrusion",
+      "path": "incidents/storm-0558-2023.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Signing keys are crown jewels. Rotate them and protect them in hardware."
+    },
+    {
+      "id": "incident-volt-typhoon-2024",
+      "type": "incident",
+      "title": "Volt Typhoon pre-positioning in U.S. critical infrastructure (2024)",
+      "topic": [
+        "apt",
+        "ics",
+        "living-off-the-land"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
+      "path": "incidents/volt-typhoon-2024.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Normal admin tools used at strange times or from strange places are the signal. You need a baseline of normal."
+    },
+    {
+      "id": "incident-change-healthcare-2024",
+      "type": "incident",
+      "title": "Change Healthcare ransomware (2024)",
+      "topic": [
+        "ransomware",
+        "identity",
+        "healthcare"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://www.finance.senate.gov/imo/media/doc/0501_witty_testimony.pdf",
+      "path": "incidents/change-healthcare-2024.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Same lesson as Colonial Pipeline, three years later: one internet-facing login without MFA."
+    },
+    {
+      "id": "incident-xz-utils-2024",
+      "type": "incident",
+      "title": "XZ Utils backdoor (2024)",
+      "topic": [
+        "supply-chain",
+        "open-source",
+        "linux"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://www.cisa.gov/news-events/alerts/2024/03/29/reported-supply-chain-compromise-affecting-xz-utils-data-compression-library-cve-2024-3094",
+      "path": "incidents/xz-utils-2024.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Curiosity about small weird things saves the day. Investigate the odd slowdown."
+    },
+    {
+      "id": "incident-crowdstrike-outage-2024",
+      "type": "incident",
+      "title": "CrowdStrike faulty update outage (not an attack) (2024)",
+      "topic": [
+        "resilience",
+        "change-management"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://www.cisa.gov/news-events/alerts/2024/07/19/widespread-it-outage-due-crowdstrike-update",
+      "path": "incidents/crowdstrike-outage-2024.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Availability is part of security (the A in the CIA triad)."
+    },
+    {
+      "id": "incident-snowflake-customers-2024",
+      "type": "incident",
+      "title": "Snowflake customer data theft (UNC5537) (2024)",
+      "topic": [
+        "cloud",
+        "identity"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc5537-snowflake-data-theft-extortion",
+      "path": "incidents/snowflake-customers-2024.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Cloud accounts need MFA just like VPNs."
+    },
+    {
+      "id": "incident-salt-typhoon-2025",
+      "type": "incident",
+      "title": "Salt Typhoon and telecom router compromises (2025)",
+      "topic": [
+        "apt",
+        "network-devices"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a",
+      "path": "incidents/salt-typhoon-2025.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Routers are computers, and attackers live on them for years."
+    },
+    {
+      "id": "incident-cisa-github-leak-2026",
+      "type": "incident",
+      "title": "CISA credentials leaked in a contractor's public GitHub repo (2026)",
+      "topic": [
+        "secrets",
+        "devsecops",
+        "cloud"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://www.cisa.gov/news-events/news/lessons-cisas-cyber-incident",
+      "path": "incidents/cisa-github-leak-2026.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Never put secrets (keys, passwords, tokens) in a repo, even a \"temporary\" one."
+    },
+    {
+      "id": "incident-safepay-2026",
+      "type": "incident",
+      "title": "SafePay ransomware (2026)",
+      "topic": [
+        "ransomware"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a",
+      "path": "incidents/safepay-2026.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Edge devices and backup servers are top targets. Patch the KEV entries for them first."
+    },
+    {
+      "id": "report-dbir-2026",
+      "type": "report",
+      "title": "Verizon DBIR 2026",
+      "topic": [
+        "breach-statistics"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://www.verizon.com/about/news/breach-industry-wide-dbir-finds",
+      "path": "incidents/yearly-reports.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Vulnerability exploitation became the top initial access vector (31%); only 26% of KEV vulns fully remediated."
+    },
+    {
+      "id": "report-mtrends-2026",
+      "type": "report",
+      "title": "Mandiant M-Trends 2026",
+      "topic": [
+        "breach-statistics"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026",
+      "path": "incidents/yearly-reports.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Median dwell time 14 days; exploits top vector (32%); voice phishing second (11%)."
+    },
+    {
+      "id": "tool-wireshark",
+      "type": "tool",
+      "title": "Wireshark",
+      "topic": [
+        "network"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "GPL-2.0",
+      "platform_fit": "arm-ok",
+      "url": "https://www.wireshark.org/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Opens and decodes captured network traffic so you can see every packet. GitHub: wireshark/wireshark, 10.3k stars, last push 2026-11-22."
+    },
+    {
+      "id": "tool-nmap",
+      "type": "tool",
+      "title": "Nmap",
+      "topic": [
+        "network"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "NPSL (Nmap Public Source License)",
+      "platform_fit": "arm-ok",
+      "url": "https://nmap.org/book/man-legal.html",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Finds hosts and open ports on a network and guesses what services are running. GitHub: nmap/nmap, 14.1k stars, last push 2026-11-22."
+    },
+    {
+      "id": "tool-zeek",
+      "type": "tool",
+      "title": "Zeek",
+      "topic": [
+        "network"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "BSD-3-Clause",
+      "platform_fit": "arm-ok",
+      "url": "https://docs.zeek.org/en/master/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Turns raw traffic into clean, searchable logs (connections, DNS, HTTP, TLS, files). The analyst's favorite network sensor. GitHub: zeek/zeek, 8.3k stars, last push 2026-11-21."
+    },
+    {
+      "id": "tool-suricata",
+      "type": "tool",
+      "title": "Suricata",
+      "topic": [
+        "network"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "GPL-2.0",
+      "platform_fit": "arm-ok",
+      "url": "https://docs.suricata.io/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "An IDS/IPS that matches traffic against rules and alerts (or blocks) on known-bad patterns. GitHub: OISF/suricata, 6.9k stars, last push 2026-11-19."
+    },
+    {
+      "id": "tool-arkime",
+      "type": "tool",
+      "title": "Arkime",
+      "topic": [
+        "network"
+      ],
+      "level": "advanced",
+      "cost": "free",
+      "license": "Apache-2.0",
+      "platform_fit": "unknown",
+      "url": "https://arkime.com/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Stores full packet capture at scale and lets you search sessions in a web UI. GitHub: arkime/arkime, 7.6k stars, last push 2026-11-22."
+    },
+    {
+      "id": "tool-wazuh",
+      "type": "tool",
+      "title": "Wazuh",
+      "topic": [
+        "host",
+        "siem"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "GPL-2.0 (mostly)",
+      "platform_fit": "arm-ok",
+      "url": "https://documentation.wazuh.com/current/index.html",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Free SIEM and host security: collects logs, checks file integrity, flags known-bad behavior, has a dashboard. GitHub: wazuh/wazuh, 17.9k stars, last push 2026-11-21."
+    },
+    {
+      "id": "tool-osquery",
+      "type": "tool",
+      "title": "osquery",
+      "topic": [
+        "host"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "Apache-2.0 or GPL-2.0",
+      "platform_fit": "arm-ok",
+      "url": "https://osquery.io/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Lets you ask questions about a computer with SQL, like `SELECT * FROM users;`. GitHub: osquery/osquery, 23.8k stars, last push 2026-11-20."
+    },
+    {
+      "id": "tool-velociraptor",
+      "type": "tool",
+      "title": "Velociraptor",
+      "topic": [
+        "host",
+        "forensics"
+      ],
+      "level": "advanced",
+      "cost": "free",
+      "license": "AGPL-3.0",
+      "platform_fit": "arm-ok",
+      "url": "https://docs.velociraptor.app/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Digital forensics and incident response: collects evidence from many machines at once with queries. GitHub: Velocidex/velociraptor, 4.5k stars, last push 2026-11-21."
+    },
+    {
+      "id": "tool-lynis",
+      "type": "tool",
+      "title": "Lynis",
+      "topic": [
+        "host"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "GPL-3.0",
+      "platform_fit": "arm-ok",
+      "url": "https://cisofy.com/lynis/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Audits a Linux or macOS system and suggests hardening fixes. GitHub: CISOfy/lynis, 16.7k stars, last push 2026-11-20."
+    },
+    {
+      "id": "tool-falco",
+      "type": "tool",
+      "title": "Falco",
+      "topic": [
+        "host",
+        "containers"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "Apache-2.0",
+      "platform_fit": "arm-ok",
+      "url": "https://falco.org/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Watches Linux system calls and alerts on suspicious behavior, especially in containers. GitHub: falcosecurity/falco, 9.6k stars, last push 2026-11-20."
+    },
+    {
+      "id": "tool-crowdsec",
+      "type": "tool",
+      "title": "CrowdSec",
+      "topic": [
+        "host"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "MIT",
+      "platform_fit": "arm-ok",
+      "url": "https://www.crowdsec.net/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Reads logs, spots attacks like brute force, and can block offenders. Like a modern fail2ban. GitHub: crowdsecurity/crowdsec, 15.8k stars, last push 2026-11-20."
+    },
+    {
+      "id": "tool-security-onion",
+      "type": "tool",
+      "title": "Security Onion",
+      "topic": [
+        "platform"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "Mixed (GPL-2.0 and Elastic License 2.0 parts)",
+      "platform_fit": "x86-only",
+      "url": "https://docs.securityonion.net/en/2.4/hardware.html",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "A full free SOC in a box: Zeek, Suricata, Elastic and case management bundled together. GitHub: Security-Onion-Solutions/securityonion, 5.0k stars, last push 2026-11-20."
+    },
+    {
+      "id": "tool-sigma",
+      "type": "tool",
+      "title": "Sigma rules",
+      "topic": [
+        "detection"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "Rules: DRL 1.1; spec: public domain",
+      "platform_fit": "arm-ok",
+      "url": "https://sigmahq.io/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "A shared format for log detection rules, plus thousands of community rules. GitHub: SigmaHQ/sigma, 11.5k stars, last push 2026-11-18."
+    },
+    {
+      "id": "tool-sigma-cli",
+      "type": "tool",
+      "title": "sigma-cli",
+      "topic": [
+        "detection"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "LGPL-2.1",
+      "platform_fit": "arm-ok",
+      "url": "https://github.com/SigmaHQ/sigma-cli",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Converts Sigma rules into queries for a specific SIEM. GitHub: SigmaHQ/sigma-cli, 225 stars, last push 2026-11-11."
+    },
+    {
+      "id": "tool-yara",
+      "type": "tool",
+      "title": "YARA",
+      "topic": [
+        "detection"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "BSD-3-Clause",
+      "platform_fit": "arm-ok",
+      "url": "https://yara.readthedocs.io/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Describes files by patterns so you can find matching files. Used widely in malware research. GitHub: VirusTotal/yara, 10.1k stars, last push 2026-10-27."
+    },
+    {
+      "id": "tool-elastic-detection-rules",
+      "type": "tool",
+      "title": "Elastic detection rules",
+      "topic": [
+        "detection"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "Elastic License 2.0 (source-available, not OSI open source)",
+      "platform_fit": "arm-ok",
+      "url": "https://github.com/elastic/detection-rules",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Elastic's public library of detection rules mapped to ATT&CK. Great for reading how pros write detections. GitHub: elastic/detection-rules, 3.0k stars, last push 2026-11-20."
+    },
+    {
+      "id": "tool-atomic-red-team",
+      "type": "tool",
+      "title": "Atomic Red Team",
+      "topic": [
+        "adversary-emulation"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT",
+      "platform_fit": "arm-partial",
+      "url": "https://www.atomicredteam.io/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "A library of small, safe tests that each mimic one ATT&CK technique, so you can check if your logging catches it. GitHub: redcanaryco/atomic-red-team, 12.9k stars, last push 2026-11-16."
+    },
+    {
+      "id": "tool-invoke-atomicredteam",
+      "type": "tool",
+      "title": "Invoke-AtomicRedTeam",
+      "topic": [
+        "adversary-emulation"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MIT",
+      "platform_fit": "arm-partial",
+      "url": "https://github.com/redcanaryco/invoke-atomicredteam",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "The PowerShell runner for Atomic Red Team tests (works with PowerShell on Linux too). GitHub: redcanaryco/invoke-atomicredteam, 1.1k stars, last push 2025-09-08."
+    },
+    {
+      "id": "tool-caldera",
+      "type": "tool",
+      "title": "Caldera",
+      "topic": [
+        "adversary-emulation"
+      ],
+      "level": "advanced",
+      "cost": "free",
+      "license": "Apache-2.0",
+      "platform_fit": "arm-ok",
+      "url": "https://github.com/apache/caldera",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "An automated adversary emulation platform. Now lives at apache/caldera on GitHub (the old mitre/caldera URL redirects). GitHub: apache/caldera, 7.5k stars, last push 2026-11-20."
+    },
+    {
+      "id": "tool-openvas",
+      "type": "tool",
+      "title": "Greenbone OpenVAS",
+      "topic": [
+        "vulnerability-scanning"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "GPL-2.0 (scanner)",
+      "platform_fit": "unknown",
+      "url": "https://greenbone.github.io/docs/latest/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Scans machines for known vulnerabilities and misconfigurations. GitHub: greenbone/openvas-scanner, 5.0k stars, last push 2026-11-20."
+    },
+    {
+      "id": "tool-zap",
+      "type": "tool",
+      "title": "ZAP (Zed Attack Proxy)",
+      "topic": [
+        "web"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "Apache-2.0",
+      "platform_fit": "arm-ok",
+      "url": "https://www.zaproxy.org/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Free web app security scanner and proxy for testing websites you own. GitHub: zaproxy/zaproxy, 16.2k stars, last push 2026-11-20."
+    },
+    {
+      "id": "tool-juice-shop",
+      "type": "tool",
+      "title": "OWASP Juice Shop",
+      "topic": [
+        "practice-target"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "MIT",
+      "platform_fit": "arm-ok",
+      "url": "https://owasp.org/www-project-juice-shop/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "A deliberately vulnerable online shop you run yourself, built to be hacked for learning. GitHub: juice-shop/juice-shop, 14.5k stars, last push 2026-11-22."
+    },
+    {
+      "id": "tool-gitleaks",
+      "type": "tool",
+      "title": "Gitleaks",
+      "topic": [
+        "secrets"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "MIT",
+      "platform_fit": "arm-ok",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Scans git repos for accidentally committed passwords and keys. GitHub: gitleaks/gitleaks, 31.3k stars, last push 2026-10-28."
+    },
+    {
+      "id": "tool-trufflehog",
+      "type": "tool",
+      "title": "TruffleHog",
+      "topic": [
+        "secrets"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "AGPL-3.0",
+      "platform_fit": "arm-ok",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Finds secrets in repos and files and can check if they are still live. GitHub: trufflesecurity/trufflehog, 29.6k stars, last push 2026-11-20."
+    },
+    {
+      "id": "tool-scorecard",
+      "type": "tool",
+      "title": "OpenSSF Scorecard",
+      "topic": [
+        "supply-chain"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "Apache-2.0",
+      "platform_fit": "arm-ok",
+      "url": "https://scorecard.dev/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Grades an open-source project's security habits (branch protection, pinned dependencies and more). GitHub: ossf/scorecard, 5.9k stars, last push 2026-11-20."
+    },
+    {
+      "id": "tool-attack-stix-data",
+      "type": "tool",
+      "title": "ATT&CK STIX data",
+      "topic": [
+        "data"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "MITRE ATT&CK terms of use",
+      "platform_fit": "arm-ok",
+      "url": "https://github.com/mitre-attack/attack-stix-data",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "The whole ATT&CK knowledge base as JSON. This repo's technique names come from v20.1. GitHub: mitre-attack/attack-stix-data, 728 stars, last push 2026-11-05."
+    },
+    {
+      "id": "tool-kev-data",
+      "type": "tool",
+      "title": "CISA KEV data",
+      "topic": [
+        "data"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "CC0-1.0",
+      "platform_fit": "arm-ok",
+      "url": "https://github.com/cisagov/kev-data",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "The Known Exploited Vulnerabilities catalog as JSON and CSV. GitHub: cisagov/kev-data, 149 stars, last push 2026-11-20."
+    },
+    {
+      "id": "tool-utm",
+      "type": "tool",
+      "title": "UTM",
+      "topic": [
+        "lab-infrastructure"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "Apache-2.0",
+      "platform_fit": "arm-ok",
+      "url": "https://mac.getutm.app/",
+      "path": "tools/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Free VM app for macOS. On Apple Silicon it runs ARM guests at near full speed and emulates x86 slowly. GitHub: utmapp/UTM, 37.0k stars, last push 2026-11-18."
+    },
+    {
+      "id": "platform-overthewire",
+      "type": "platform",
+      "title": "OverTheWire wargames",
+      "topic": [
+        "linux",
+        "ctf"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://overthewire.org/wargames/",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "SSH-based Linux wargames, no account. Start with Bandit."
+    },
+    {
+      "id": "platform-cylab-academy",
+      "type": "platform",
+      "title": "CyLab Security Academy (formerly picoCTF)",
+      "topic": [
+        "ctf"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://learn.cylabacademy.org/",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Carnegie Mellon's free platform; picoCTF.org became CyLab Security Academy on 2026-05-08."
+    },
+    {
+      "id": "platform-tryhackme",
+      "type": "platform",
+      "title": "TryHackMe",
+      "topic": [
+        "guided-labs"
+      ],
+      "level": "beginner",
+      "cost": "freemium",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://tryhackme.com/",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Guided rooms and learning paths, browser attack box."
+    },
+    {
+      "id": "platform-hackthebox",
+      "type": "platform",
+      "title": "Hack The Box and HTB Academy",
+      "topic": [
+        "offense"
+      ],
+      "level": "intermediate",
+      "cost": "freemium",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.hackthebox.com/",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Realistic machines plus structured Academy modules."
+    },
+    {
+      "id": "platform-portswigger",
+      "type": "platform",
+      "title": "PortSwigger Web Security Academy",
+      "topic": [
+        "web"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://portswigger.net/web-security",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Free web security labs."
+    },
+    {
+      "id": "platform-pwn-college",
+      "type": "platform",
+      "title": "pwn.college",
+      "topic": [
+        "exploitation"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://pwn.college/",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "University-style modules on Linux and binary exploitation."
+    },
+    {
+      "id": "platform-btlo",
+      "type": "platform",
+      "title": "Blue Team Labs Online",
+      "topic": [
+        "defense"
+      ],
+      "level": "beginner",
+      "cost": "freemium",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://blueteamlabs.online/",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Blue team investigations with logs and pcaps."
+    },
+    {
+      "id": "platform-cyberdefenders",
+      "type": "platform",
+      "title": "CyberDefenders",
+      "topic": [
+        "defense"
+      ],
+      "level": "intermediate",
+      "cost": "freemium",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://cyberdefenders.org/",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Blue team challenges in forensics and threat hunting."
+    },
+    {
+      "id": "platform-sans-holiday-hack",
+      "type": "platform",
+      "title": "SANS Holiday Hack Challenge",
+      "topic": [
+        "ctf"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.sans.org/mlp/holiday-hack-challenge/",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Yearly free story-based CTF."
+    },
+    {
+      "id": "platform-ctftime",
+      "type": "platform",
+      "title": "CTFtime",
+      "topic": [
+        "ctf"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://ctftime.org/",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Calendar of CTF competitions."
+    },
+    {
+      "id": "platform-cyberpatriot",
+      "type": "platform",
+      "title": "CyberPatriot",
+      "topic": [
+        "defense",
+        "competition"
+      ],
+      "level": "beginner",
+      "cost": "paid",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.uscyberpatriot.org/",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "National youth cyber defense competition with school teams."
+    },
+    {
+      "id": "platform-ncl",
+      "type": "platform",
+      "title": "National Cyber League",
+      "topic": [
+        "competition"
+      ],
+      "level": "beginner",
+      "cost": "paid",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.nationalcyberleague.org/",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Seasonal student CTF with skills report."
+    },
+    {
+      "id": "platform-us-cyber-games",
+      "type": "platform",
+      "title": "US Cyber Games",
+      "topic": [
+        "competition"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.uscybergames.com/",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "National program building the U.S. Cyber Team; check eligibility."
+    },
+    {
+      "id": "platform-messer-secplus",
+      "type": "platform",
+      "title": "Professor Messer Security+ course",
+      "topic": [
+        "certification"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Free Security+ SY0-701 video course."
+    },
+    {
+      "id": "platform-messer-netplus",
+      "type": "platform",
+      "title": "Professor Messer Network+ course",
+      "topic": [
+        "certification"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.professormesser.com/network-plus/n10-009/n10-009-video/n10-009-training-course/",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Free Network+ N10-009 video course."
+    },
+    {
+      "id": "platform-comptia-secplus-v8",
+      "type": "platform",
+      "title": "CompTIA Security+ V8 (SY0-801)",
+      "topic": [
+        "certification"
+      ],
+      "level": "beginner",
+      "cost": "paid",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.comptia.org/en-us/certifications/security/v8/",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "New Security+ version launched 2026-11-17."
+    },
+    {
+      "id": "platform-cisco-netacad",
+      "type": "platform",
+      "title": "Cisco Networking Academy and Packet Tracer",
+      "topic": [
+        "networking"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.netacad.com/",
+      "path": "practice/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Free networking courses and Cisco's simulator."
+    },
+    {
+      "id": "research-nist-csf-2",
+      "type": "research",
+      "title": "NIST Cybersecurity Framework 2.0",
+      "topic": [
+        "framework"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.nist.gov/cyberframework",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "NIST Cybersecurity Framework 2.0"
+    },
+    {
+      "id": "research-nist-800-61r3",
+      "type": "research",
+      "title": "NIST SP 800-61 Rev. 3 (incident response)",
+      "topic": [
+        "incident-response"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "NIST SP 800-61 Rev. 3 (incident response)"
+    },
+    {
+      "id": "research-nist-800-115",
+      "type": "research",
+      "title": "NIST SP 800-115 (security testing)",
+      "topic": [
+        "testing"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://csrc.nist.gov/pubs/sp/800/115/final",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "NIST SP 800-115 (security testing)"
+    },
+    {
+      "id": "research-nist-800-63-4",
+      "type": "research",
+      "title": "NIST SP 800-63-4 (digital identity)",
+      "topic": [
+        "identity"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://csrc.nist.gov/pubs/sp/800/63/4/final",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "NIST SP 800-63-4 (digital identity)"
+    },
+    {
+      "id": "research-nist-800-53r5",
+      "type": "research",
+      "title": "NIST SP 800-53 Rev. 5 (controls)",
+      "topic": [
+        "controls"
+      ],
+      "level": "advanced",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "NIST SP 800-53 Rev. 5 (controls)"
+    },
+    {
+      "id": "research-nist-800-82r3",
+      "type": "research",
+      "title": "NIST SP 800-82 Rev. 3 (OT security)",
+      "topic": [
+        "ics"
+      ],
+      "level": "advanced",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://csrc.nist.gov/pubs/sp/800/82/r3/final",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "NIST SP 800-82 Rev. 3 (OT security)"
+    },
+    {
+      "id": "research-cis-controls",
+      "type": "research",
+      "title": "CIS Critical Security Controls",
+      "topic": [
+        "controls"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.cisecurity.org/controls",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "CIS Critical Security Controls"
+    },
+    {
+      "id": "research-owasp-top10-2025",
+      "type": "research",
+      "title": "OWASP Top 10:2025",
+      "topic": [
+        "web"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://owasp.org/Top10/2025/",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "OWASP Top 10:2025"
+    },
+    {
+      "id": "research-owasp-wstg",
+      "type": "research",
+      "title": "OWASP Web Security Testing Guide",
+      "topic": [
+        "web"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://owasp.org/www-project-web-security-testing-guide/",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "OWASP Web Security Testing Guide"
+    },
+    {
+      "id": "research-cisa-cyber-essentials",
+      "type": "research",
+      "title": "CISA Cyber Essentials",
+      "topic": [
+        "basics"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.cisa.gov/cyber-essentials",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "CISA Cyber Essentials"
+    },
+    {
+      "id": "research-cisa-stopransomware-guide",
+      "type": "research",
+      "title": "CISA #StopRansomware Guide",
+      "topic": [
+        "ransomware"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.cisa.gov/stopransomware/ransomware-guide",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "CISA #StopRansomware Guide"
+    },
+    {
+      "id": "research-cisa-secure-by-design",
+      "type": "research",
+      "title": "CISA Secure by Design",
+      "topic": [
+        "secure-development"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.cisa.gov/securebydesign",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "CISA Secure by Design"
+    },
+    {
+      "id": "research-cisa-comms-hardening",
+      "type": "research",
+      "title": "CISA communications infrastructure hardening guidance",
+      "topic": [
+        "network-devices"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.cisa.gov/resources-tools/resources/enhanced-visibility-and-hardening-guidance-communications-infrastructure",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "CISA communications infrastructure hardening guidance"
+    },
+    {
+      "id": "research-cisco-ios-hardening",
+      "type": "research",
+      "title": "Cisco Guide to Harden Cisco IOS Devices",
+      "topic": [
+        "network-devices"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://sec.cloudapps.cisco.com/security/center/resources/IOS_hardening",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Cisco Guide to Harden Cisco IOS Devices"
+    },
+    {
+      "id": "research-mitre-attack",
+      "type": "research",
+      "title": "MITRE ATT&CK",
+      "topic": [
+        "threat-knowledge"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://attack.mitre.org/",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "MITRE ATT&CK"
+    },
+    {
+      "id": "research-mitre-d3fend",
+      "type": "research",
+      "title": "MITRE D3FEND",
+      "topic": [
+        "defense-knowledge"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://d3fend.mitre.org/",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "MITRE D3FEND"
+    },
+    {
+      "id": "research-attack-ics",
+      "type": "research",
+      "title": "ATT&CK for ICS",
+      "topic": [
+        "ics"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://attack.mitre.org/matrices/ics/",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "ATT&CK for ICS"
+    },
+    {
+      "id": "research-cisa-advisories",
+      "type": "research",
+      "title": "CISA Cybersecurity Advisories",
+      "topic": [
+        "threat-intel"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "CISA Cybersecurity Advisories"
+    },
+    {
+      "id": "research-first-epss",
+      "type": "research",
+      "title": "FIRST EPSS",
+      "topic": [
+        "vulnerability-management"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.first.org/epss/",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "FIRST EPSS"
+    },
+    {
+      "id": "research-defcon-media",
+      "type": "research",
+      "title": "DEF CON media server",
+      "topic": [
+        "talks"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://media.defcon.org/",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "DEF CON media server"
+    },
+    {
+      "id": "research-blackhat-youtube",
+      "type": "research",
+      "title": "Black Hat on YouTube",
+      "topic": [
+        "talks"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.youtube.com/@BlackHatOfficialYT",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Black Hat on YouTube"
+    },
+    {
+      "id": "research-usenix-security",
+      "type": "research",
+      "title": "USENIX Security papers",
+      "topic": [
+        "academic"
+      ],
+      "level": "advanced",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.usenix.org/conferences/byname/108",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "USENIX Security papers"
+    },
+    {
+      "id": "research-arxiv-cscr",
+      "type": "research",
+      "title": "arXiv cs.CR",
+      "topic": [
+        "academic"
+      ],
+      "level": "advanced",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://arxiv.org/list/cs.CR/recent",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "arXiv cs.CR"
+    },
+    {
+      "id": "research-project-zero",
+      "type": "research",
+      "title": "Google Project Zero blog",
+      "topic": [
+        "vulnerability-research"
+      ],
+      "level": "advanced",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://googleprojectzero.blogspot.com/",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Google Project Zero blog"
+    },
+    {
+      "id": "research-talos-blog",
+      "type": "research",
+      "title": "Cisco Talos blog",
+      "topic": [
+        "threat-intel"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://blog.talosintelligence.com/",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Cisco Talos blog"
+    },
+    {
+      "id": "research-detection-eng-weekly",
+      "type": "research",
+      "title": "Detection Engineering Weekly",
+      "topic": [
+        "detection"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://www.detectionengineering.net/",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "Detection Engineering Weekly"
+    },
+    {
+      "id": "research-slsa",
+      "type": "research",
+      "title": "SLSA",
+      "topic": [
+        "supply-chain"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://slsa.dev/",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "SLSA"
+    },
+    {
+      "id": "research-github-secret-scanning",
+      "type": "research",
+      "title": "GitHub secret scanning docs",
+      "topic": [
+        "secrets"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "web",
+      "url": "https://docs.github.com/en/code-security/secret-scanning/introduction/about-secret-scanning",
+      "path": "research/README.md",
+      "tag": "KNOWN",
+      "date_checked": "2026-11-22",
+      "summary": "GitHub secret scanning docs"
+    },
+    {
+      "id": "lab-00",
+      "type": "lab",
+      "title": "Lab 0: Build a safe lab on your Mac",
+      "topic": [
+        "hands-on"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "arm-ok",
+      "url": "https://mac.getutm.app/",
+      "path": "labs/00-safe-lab-setup.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "three VMs on a private network you control, with a clean way to roll back."
+    },
+    {
+      "id": "lab-01",
+      "type": "lab",
+      "title": "Lab 1: Map your own network with Nmap and Wireshark",
+      "topic": [
+        "hands-on"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "arm-ok",
+      "url": "https://attack.mitre.org/",
+      "path": "labs/01-map-your-own-network.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "find every machine and open service in your lab, and see what a scan looks like on the wire."
+    },
+    {
+      "id": "lab-02",
+      "type": "lab",
+      "title": "Lab 2: Harden your Cisco 1941 router",
+      "topic": [
+        "hands-on"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "arm-ok",
+      "url": "https://attack.mitre.org/",
+      "path": "labs/02-harden-your-cisco-router.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "lock down your router the way real network defenders do, using the same checklist that came out of the Salt Typhoon advisory."
+    },
+    {
+      "id": "lab-03",
+      "type": "lab",
+      "title": "Lab 3: Harden a Linux VM with Lynis",
+      "topic": [
+        "hands-on"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "arm-ok",
+      "url": "https://attack.mitre.org/",
+      "path": "labs/03-linux-hardening-lynis.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "audit your `target` VM, fix the top findings, and measure the improvement."
+    },
+    {
+      "id": "lab-04",
+      "type": "lab",
+      "title": "Lab 4: Read login logs and catch a brute-force attack",
+      "topic": [
+        "hands-on"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "arm-ok",
+      "url": "https://attack.mitre.org/",
+      "path": "labs/04-logs-and-brute-force.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "see what password guessing looks like in logs, then block it automatically."
+    },
+    {
+      "id": "lab-05",
+      "type": "lab",
+      "title": "Lab 5: Build a network sensor with Zeek and Suricata",
+      "topic": [
+        "hands-on"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "arm-ok",
+      "url": "https://attack.mitre.org/",
+      "path": "labs/05-network-sensor-zeek-suricata.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "watch your lab network with the two tools real SOCs use, and catch your own scan."
+    },
+    {
+      "id": "lab-06",
+      "type": "lab",
+      "title": "Lab 6: Write your first detection rules (Sigma and YARA)",
+      "topic": [
+        "hands-on"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "arm-ok",
+      "url": "https://attack.mitre.org/",
+      "path": "labs/06-detection-rules-sigma-yara.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "write one log rule and one file rule, test both, and understand every line."
+    },
+    {
+      "id": "lab-07",
+      "type": "lab",
+      "title": "Lab 7: Endpoint visibility with Wazuh and osquery",
+      "topic": [
+        "hands-on"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "arm-ok",
+      "url": "https://attack.mitre.org/",
+      "path": "labs/07-endpoint-visibility-wazuh-osquery.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "run a free SIEM, connect your target VM, and catch persistence tricks like new users and changed system files."
+    },
+    {
+      "id": "lab-08",
+      "type": "lab",
+      "title": "Lab 8: Test your defenses with Atomic Red Team",
+      "topic": [
+        "hands-on"
+      ],
+      "level": "intermediate",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "arm-ok",
+      "url": "https://attack.mitre.org/",
+      "path": "labs/08-adversary-emulation-atomic-red-team.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "run small, safe tests that mimic real attacker techniques, and check whether Lab 7's Wazuh setup catches them."
+    },
+    {
+      "id": "lab-09",
+      "type": "lab",
+      "title": "Lab 9: Hack a vulnerable web app you run yourself (OWASP Juice Shop)",
+      "topic": [
+        "hands-on"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "arm-ok",
+      "url": "https://attack.mitre.org/",
+      "path": "labs/09-web-app-testing-juice-shop.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "see SQL injection and other common web bugs safely, and scan with ZAP."
+    },
+    {
+      "id": "lab-10",
+      "type": "lab",
+      "title": "Lab 10: Build a patch plan with KEV",
+      "topic": [
+        "hands-on"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "arm-ok",
+      "url": "https://attack.mitre.org/",
+      "path": "labs/10-kev-patch-priorities.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "inventory the software in your lab, check it against real-world exploitation data, and decide what to fix first."
+    },
+    {
+      "id": "lab-11",
+      "type": "lab",
+      "title": "Lab 11: Run a tabletop exercise from a real incident",
+      "topic": [
+        "hands-on"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "arm-ok",
+      "url": "https://attack.mitre.org/",
+      "path": "labs/11-tabletop-from-a-real-incident.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "practice incident response decisions using a real case, no computers needed."
+    },
+    {
+      "id": "lab-12",
+      "type": "lab",
+      "title": "Lab 12: Secrets and supply chain hygiene for your own repos",
+      "topic": [
+        "hands-on"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "arm-ok",
+      "url": "https://attack.mitre.org/",
+      "path": "labs/12-secrets-and-supply-chain.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "make sure your own GitHub repos (and your AI agents) never leak keys, and learn to check software you install."
+    },
+    {
+      "id": "realworld-ornl-y12",
+      "type": "real-world",
+      "title": "Real world layer: ORNL and Y-12",
+      "topic": [
+        "careers",
+        "research"
+      ],
+      "level": "beginner",
+      "cost": "free",
+      "license": "n/a",
+      "platform_fit": "n/a",
+      "url": "https://github.com/zaxpointx/ornl-public-tech-research",
+      "path": "real-world/README.md",
+      "tag": "INFERRED",
+      "date_checked": "2026-11-22",
+      "summary": "Maps each topic here to ORNL and Y-12 public work in the ORNL atlas."
+    }
+  ]
+}
